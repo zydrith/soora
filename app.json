@@ -1,7 +1,10 @@
 {
   "expo": {
     "name": "react-native-ap",
-    "slug": "react-native-ap",
+    "assets": [
+      "./assets/fonts/"
+    ],
+    "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +31,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88f3efa4-fc62-4b55-962d-9019d62b436b"
+      }
+    },
+    "owner": "zydrith"
   }
 }
