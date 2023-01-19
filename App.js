@@ -2,7 +2,7 @@ import ContactUs from './components/button';
 import { StyleSheet, Text, View, Image, SafeAreaView, Button } from 'react-native';
 
 
-export default function App() {
+export default function Header() {
   return (
       <View style={styles.container}>
         <View>
