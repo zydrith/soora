@@ -10,7 +10,7 @@ const font = {
     'Inter-ExtraBold': require('../assets/fonts/Inter-ExtraBold.ttf'),
 };
 
-export default class ContactUs extends React.Component {
+export default class NotifyMe extends React.Component {
   state = {
     fontLoaded: false,
   };
@@ -24,8 +24,7 @@ export default class ContactUs extends React.Component {
     return (
         <TouchableOpacity>
             <View style={styles.button}>
-                { this.state.fontLoaded ? <Text style={styles.text}>Contact Us</Text> : null }
-                <Image style={styles.image} source={require('../assets/images/contact-icon.png')} />
+                { this.state.fontLoaded ? <Text style={styles.text}>Notify Me</Text> : null }
             </View>
         </TouchableOpacity>
     )
@@ -34,29 +33,24 @@ export default class ContactUs extends React.Component {
 
 const styles = StyleSheet.create({
     button: {
-        borderRadius: 4,
+        borderRadius: 100,
         backgroundColor: "#0B0B0B",
-        paddingTop: 10,
-        paddingBottom: 10,
-        paddingRight: 14,
-        paddingLeft: 14,
-        marginRight: 24,
-        flexDirection: 'row',
-        
+        width: 100,
+        height: 36,
+        position: 'absolute',
+        right: 3.55,
+        top: 4.25,
+
     },
     text: {
         color: 'white',
-        fontFamily: 'Inter-Regular',
-        fontSize: 10,
-        lineHeight: 12,
-        display: 'flex',
-        alignItems: 'flex-end',
-    },
-    image: {
-        width: 10,
-        height: 10,
-        marginLeft: 6
+        fontStyle: 'Inter-SemiBold',
+        fontWeight: '600',
+        fontSize: 12,
+        lineHeight: 15,
+        top: 10.5,
+        bottom: 10.5,
+        left: 21.5,
+        right: 21.5
     }
 });
-
-
