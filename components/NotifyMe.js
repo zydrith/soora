@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from "react-native";
+import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import * as Font from 'expo-font';
 
 const font = {
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         width: 100,
         height: 36,
         position: 'absolute',
-        right: 3.55,
+        right: -15,
         top: 4.25,
 
     },
