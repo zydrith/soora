@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         width: 100,
         height: 36,
         position: 'absolute',
-        right: -15,
+        right: 24,
         top: 4.25,
 
     },
@@ -51,6 +51,9 @@ const styles = StyleSheet.create({
         top: 10.5,
         bottom: 10.5,
         left: 21.5,
-        right: 21.5
+        right: 21.5,
+        alignItems: 'center',
+        alignSelf: 'center',
+        paddingTop: 10
     }
 });

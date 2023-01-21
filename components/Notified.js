@@ -25,18 +25,23 @@ const styles = StyleSheet.create({
       },
       textInput: {
         boxSize: 'border-box',
-        width: 339,
+        width: 350,
         height: 45,
         borderWidth: 1,
         borderColor: 'black',
         borderRadius: 100,
         left: 20,
-        right: 20
+        right: 20,
+        padding: 20,
+        flex: 1,
+        marginRight: 20,
+        marginLeft: 20
         
         
       },
       TextContainer: {
         top: 24,
+       
       },
       spam: {
         fontStyle: 'Inter-Regular',
